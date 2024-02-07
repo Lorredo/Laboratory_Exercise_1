@@ -1,0 +1,75 @@
+.profile-pic{
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    float: left;
+    margin-right: 20px;
+}
+.self-desc{
+    width: 80%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.education {
+    min-height: 390px;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+  }
+  h2 {
+    color: black;
+  }
+
+  .hobbies-container {
+    min-height: 390px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: auto;
+  }
+  .cont{
+    display: flex;
+  }
+  .sub-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .hobbies-container p{
+    display: inline-block;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+.educ-hobby{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-top:40px;
+    margin-bottom: 20px;
+
+}
+a.li{
+    text-decoration: none;
+    color: grey;
+}
+.hobby{
+    margin-left: 20px;
+    margin-right: 20px;
+}
